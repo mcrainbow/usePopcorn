@@ -26,7 +26,7 @@ function WatchedItem({ item }) {
           <span>{item.runtime} min</span>
         </p>
       </div>
-      <button className="absolute right-[2.4rem] h-[1.8rem] [aspect-ratio:1] rounded-[50%] border-none text-[0.9rem] font-bold cursor-pointer transition-all duration-300 hover:bg-red-dark">
+      <button className="absolute right-[1rem] h-[1.8rem] [aspect-ratio:1] rounded-[50%] border-none text-[0.9rem] font-bold cursor-pointer transition-all duration-300 hover:bg-red-dark">
         X
       </button>
     </li>
