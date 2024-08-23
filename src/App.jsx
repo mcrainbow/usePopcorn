@@ -11,6 +11,7 @@ import NumResults from "./components/NumResults";
 import SearchBar from "./components/SearchBar";
 import Logo from "./components/Logo";
 import ToggleButton from "./components/ToggleButton";
+import StarRating from "./components/StarRating";
 
 export default function App() {
   const [query, setQuery] = useState("");
@@ -21,6 +22,7 @@ export default function App() {
 
   return (
     <>
+      <StarRating maxRaiting={10} />
       <Header>
         <nav className="grid grid-cols-3 items-center h-[7.2rem] py-0 px-[3.2rem] bg-[#6741d9] rounded-[0.9rem]">
           <Logo />
